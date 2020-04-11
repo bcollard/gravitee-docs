@@ -7,17 +7,19 @@ endif::[]
 
 == How to write documentation for GraviteeIO
 
-Our doc website is generated from AsciiDoc files. +
-You'll find these pages under the `/pages` directory.
+The documentation website is based on the GitHub's Jekyll engine. +
+We write articles using the _AsciiDoc_ markup language (_.adoc_). You'll find these articles under the `/pages` directory.
 
 === Live Preview
 
-We suggest you to use a live preview utility like the one available with jekyll.
+We suggest you to use a live preview utility like the one available with https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll[jekyll]:
 ```
 > bundle exec jekyll serve
 ```
 
-Then, open http://127.0.0.1:4000/ to see your modifications.
+Then, navigate to http://127.0.0.1:4000/ and watch for your modifications live!
 
-For contributions guidelines, please refer to CONTRIBUTING.adoc
+=== Contributions
+
+Contributions are welcome. For guidelines, please refer to _CONTRIBUTING.adoc_
 

@@ -1,18 +1,19 @@
-= Why Gravitee.io ?
+= Why Gravitee.io?
 :page-sidebar: apim_1_x_sidebar
 :page-permalink: apim/1.x/apim_overview_why.html
 :page-folder: apim/overview
 :page-toc: false
 :page-layout: apim
 
-At the very beginning, we were looking for an open-source solution to do API Management. Unfortunately, we've never found
-the tool which fit exactly our needs and by choosing one of them we know that we have to pull other components and,
-for some of them use a dedicated support.
+At the very beginning, we were looking for an open-source solution to do some API Management. Unfortunately, we've never found
+the perfect, unopinionated, fast and open-source tool that would have fit our needs. For instance, most of API management products come with paying components like dashboards or connectors and are neither easily extensible nor integrable. +
+if we were to pick one of them we know that we would have to pull other components and also,
+for some of them, use a dedicated support.
 
-That's the main reason why we launch Gravitee.io : our goal is to provide to users an highly integrable and scalable
+That's the main reason why we've launched *Gravitee API Management*: our goal is to provide users with an highly integrable and scalable
 solution which is able to fit perfectly their business requirements and infrastructure.
 
-Also, Gravitee.io has been developed and designed to be fully extensible using its internal plugin system. You must be
+Also, **Gravitee API Management** has been developed and designed to be fully extensible using its internal plugin system. You must be
 able to do whatever you want : defining your own policy, developing your own reporting system, and so on...
 
 Finally, all components provided by Gravitee.io (including gateway and management-api) are really lightweight. We
@@ -21,4 +22,3 @@ and our components can be started in a "blazing-fast" mode (generally speaking, 
 to be accessible to consumers, depending on the number of APIs to deploy).
 
 Ready to use Gravitee.io API Management ? Sounds good ! So let's go a deep further right now !
-
